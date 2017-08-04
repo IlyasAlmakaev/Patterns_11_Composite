@@ -13,6 +13,8 @@
 		28BBEF571F341D21001E838A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BBEF551F341D21001E838A /* Main.storyboard */; };
 		28BBEF591F341D21001E838A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BBEF581F341D21001E838A /* Assets.xcassets */; };
 		28BBEF5C1F341D21001E838A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BBEF5A1F341D21001E838A /* LaunchScreen.storyboard */; };
+		28BBEF661F342118001E838A /* LeafObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BBEF651F342118001E838A /* LeafObject.m */; };
+		28BBEF691F342346001E838A /* Container.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BBEF681F342346001E838A /* Container.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		28BBEF581F341D21001E838A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28BBEF5B1F341D21001E838A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28BBEF5D1F341D21001E838A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BBEF631F341FD2001E838A /* CompositeObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeObjectProtocol.h; sourceTree = "<group>"; };
+		28BBEF641F342118001E838A /* LeafObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafObject.h; sourceTree = "<group>"; };
+		28BBEF651F342118001E838A /* LeafObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafObject.m; sourceTree = "<group>"; };
+		28BBEF671F342346001E838A /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
+		28BBEF681F342346001E838A /* Container.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Container.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,11 @@
 			children = (
 				28BBEF4F1F341D21001E838A /* AppDelegate.h */,
 				28BBEF501F341D21001E838A /* AppDelegate.m */,
+				28BBEF631F341FD2001E838A /* CompositeObjectProtocol.h */,
+				28BBEF641F342118001E838A /* LeafObject.h */,
+				28BBEF651F342118001E838A /* LeafObject.m */,
+				28BBEF671F342346001E838A /* Container.h */,
+				28BBEF681F342346001E838A /* Container.m */,
 				28BBEF521F341D21001E838A /* ViewController.h */,
 				28BBEF531F341D21001E838A /* ViewController.m */,
 				28BBEF551F341D21001E838A /* Main.storyboard */,
@@ -151,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BBEF691F342346001E838A /* Container.m in Sources */,
 				28BBEF541F341D21001E838A /* ViewController.m in Sources */,
 				28BBEF511F341D21001E838A /* AppDelegate.m in Sources */,
+				28BBEF661F342118001E838A /* LeafObject.m in Sources */,
 				28BBEF4E1F341D21001E838A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
